@@ -12,19 +12,31 @@
   ],
   "contributes": {
     "jsonValidation": [
-      {"fileMatch":"*.shapeset", "url":"https://raw.githubusercontent.com/Tofixrs/SM-JSON-Schemas/0.6.6/shapeSet.json"},
-      {"fileMatch":"*.shapedb", "url":"https://raw.githubusercontent.com/Tofixrs/SM-JSON-Schemas/0.6.6/shapeSetDb.json"},
-      {"fileMatch":"*.effectset", "url":"https://raw.githubusercontent.com/Tofixrs/SM-JSON-Schemas/0.6.6/effectSet.json"},
-      {"fileMatch":"*.effectdb", "url":"https://raw.githubusercontent.com/Tofixrs/SM-JSON-Schemas/0.6.6/effectSetDb.json"}
+      {"fileMatch":"*.shapeset",       "url":"https://raw.githubusercontent.com/Tofixrs/SM-JSON-Schemas/0.6.6/shapeSet.json"},
+      {"fileMatch":"*.shapedb",        "url":"https://raw.githubusercontent.com/Tofixrs/SM-JSON-Schemas/0.6.6/shapeSetDb.json"},
+      {"fileMatch":"*.effectset",      "url":"https://raw.githubusercontent.com/Tofixrs/SM-JSON-Schemas/0.6.6/effectSet.json"},
+      {"fileMatch":"*.effectdb",       "url":"https://raw.githubusercontent.com/Tofixrs/SM-JSON-Schemas/0.6.6/effectSetDb.json"},
+      {"fileMatch":"*.characterset",   "url":"https://raw.githubusercontent.com/Tofixrs/SM-JSON-Schemas/0.6.6/characterSet.json"},
+      {"fileMatch":"*.characterdb",    "url":"https://raw.githubusercontent.com/Tofixrs/SM-JSON-Schemas/0.6.6/characterSetDb.json"},
+      {"fileMatch":"*.harvestableset", "url":"https://raw.githubusercontent.com/Tofixrs/SM-JSON-Schemas/0.6.6/harvestableSet.json"},
+      {"fileMatch":"*.harvestabledb",  "url":"https://raw.githubusercontent.com/Tofixrs/SM-JSON-Schemas/0.6.6/harvestableSetDb.json"},
+      {"fileMatch":"*.logset",         "url":"https://raw.githubusercontent.com/Tofixrs/SM-JSON-Schemas/0.6.6/logList.json"},
+      {"fileMatch":"*.nodeset",        "url":"https://raw.githubusercontent.com/Tofixrs/SM-JSON-Schemas/0.6.6/nodeList.json"},
+      {"fileMatch":"*.rend",           "url":"https://raw.githubusercontent.com/Tofixrs/SM-JSON-Schemas/0.6.6/rend.json"},
+      {"fileMatch":"*.rotationset",    "url":"https://raw.githubusercontent.com/Tofixrs/SM-JSON-Schemas/0.6.6/rotationSet.json"}
     ],
     "languages": [
       {
         "id": "jsonc",
         "extensions": [
-          "shapedb",
-          "shapeset",
-          "effectdb",
-          "effectset"
+          "shapedb","shapeset",
+          "effectdb","effectset",
+          "characterdb","characterset",
+          "harvestabledb","harvestableset",
+          "logset",
+          "nodeset",
+          "rend",
+          "rotationset"
         ]
       }
     ]
