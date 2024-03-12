@@ -1,0 +1,32 @@
+{
+  "name": "sm-json-schemas",
+  "displayName": "SM JSON Schemas",
+  "description": "A Pack of JSON Schemas for the game Scrap Mechanic",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.54.0"
+  },
+  "categories": [
+    "Other",
+    "Languages"
+  ],
+  "contributes": {
+    "jsonValidation": [
+      {"fileMatch":"*.shapeset", "url":"https://raw.githubusercontent.com/Tofixrs/SM-JSON-Schemas/0.6.6/shapeSet.json"},
+      {"fileMatch":"*.shapedb", "url":"https://raw.githubusercontent.com/Tofixrs/SM-JSON-Schemas/0.6.6/shapeSetDb.json"},
+      {"fileMatch":"*.effectset", "url":"https://raw.githubusercontent.com/Tofixrs/SM-JSON-Schemas/0.6.6/effectSet.json"},
+      {"fileMatch":"*.effectdb", "url":"https://raw.githubusercontent.com/Tofixrs/SM-JSON-Schemas/0.6.6/effectSetDb.json"}
+    ],
+    "languages": [
+      {
+        "id": "jsonc",
+        "extensions": [
+          "shapedb",
+          "shapeset",
+          "effectdb",
+          "effectset"
+        ]
+      }
+    ]
+  }
+}
