@@ -25,7 +25,9 @@
       {"fileMatch":"*.rend",           "url":"https://raw.githubusercontent.com/Tofixrs/SM-JSON-Schemas/0.6.6/rend.json"},
       {"fileMatch":"*.rotationset",    "url":"https://raw.githubusercontent.com/Tofixrs/SM-JSON-Schemas/0.6.6/rotationSet.json"},
       {"fileMatch":"*.kinematicset",   "url":"https://raw.githubusercontent.com/Tofixrs/SM-JSON-Schemas/0.6.6/kinematicSet.json"},
-      {"fileMatch":"*.kinematicdb",    "url":"https://raw.githubusercontent.com/Tofixrs/SM-JSON-Schemas/0.6.6/kinematicSetDb.json"}
+      {"fileMatch":"*.kinematicdb",    "url":"https://raw.githubusercontent.com/Tofixrs/SM-JSON-Schemas/0.6.6/kinematicSetDb.json"},
+      {"fileMatch":"*.sobset",         "url":"https://raw.githubusercontent.com/Tofixrs/SM-JSON-Schemas/0.6.6/sobSet.json"},
+      {"fileMatch":"*.sobdb",          "url":"https://raw.githubusercontent.com/Tofixrs/SM-JSON-Schemas/0.6.6/sobSetDb.json"}
     ],
     "languages": [
       {
@@ -39,7 +41,8 @@
           "nodeset",
           "rend",
           "rotationset",
-          "kinematicdb","kinematicset"
+          "kinematicdb","kinematicset",
+          "sobdb","sobset"
         ]
       }
     ]
