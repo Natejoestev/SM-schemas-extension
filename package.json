@@ -7,8 +7,7 @@
     "vscode": "^1.54.0"
   },
   "categories": [
-    "Other",
-    "Languages"
+    "Other"
   ],
   "contributes": {
     "jsonValidation": [
@@ -27,7 +26,11 @@
       {"fileMatch":"*.kinematicset",   "url":"https://raw.githubusercontent.com/Tofixrs/SM-JSON-Schemas/0.6.6/kinematicSet.json"},
       {"fileMatch":"*.kinematicdb",    "url":"https://raw.githubusercontent.com/Tofixrs/SM-JSON-Schemas/0.6.6/kinematicSetDb.json"},
       {"fileMatch":"*.sobset",         "url":"https://raw.githubusercontent.com/Tofixrs/SM-JSON-Schemas/0.6.6/sobSet.json"},
-      {"fileMatch":"*.sobdb",          "url":"https://raw.githubusercontent.com/Tofixrs/SM-JSON-Schemas/0.6.6/sobSetDb.json"}
+      {"fileMatch":"*.sobdb",          "url":"https://raw.githubusercontent.com/Tofixrs/SM-JSON-Schemas/0.6.6/sobSetDb.json"},
+      {"fileMatch":"*.assetset",       "url":"https://raw.githubusercontent.com/Tofixrs/SM-JSON-Schemas/0.6.6/assetSet.json"},
+      {"fileMatch":"*.assetdb",        "url":"https://raw.githubusercontent.com/Tofixrs/SM-JSON-Schemas/0.6.6/assetSetDb.json"},
+      {"fileMatch":"*.toolset",        "url":"https://raw.githubusercontent.com/Tofixrs/SM-JSON-Schemas/0.6.6/toolSet.json"},
+      {"fileMatch":"*.tooldb",         "url":"https://raw.githubusercontent.com/Tofixrs/SM-JSON-Schemas/0.6.6/toolSetDb.json"}
     ],
     "languages": [
       {
@@ -42,7 +45,9 @@
           "rend",
           "rotationset",
           "kinematicdb","kinematicset",
-          "sobdb","sobset"
+          "sobdb","sobset",
+          "assetdb","assetset",
+          "tooldb","toolset"
         ]
       }
     ]
